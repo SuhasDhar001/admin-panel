@@ -5,6 +5,10 @@ import
 const Header = ({OpenSideBar}) => {
     
     return (
+        <>
+     <div className="container">
+       
+     </div>
         <header className='header'>
             <div className='menu-icon'>
                 <BsJustify className='icon' onClick={OpenSideBar}/>
@@ -18,6 +22,7 @@ const Header = ({OpenSideBar}) => {
                 <BsPersonCircle className='icon'/>
             </div>
         </header>
+        </>
       )
 }
 
